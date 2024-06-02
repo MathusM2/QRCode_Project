@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    background-color: hsl(212, 45%, 89%);
+
+    margin: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.space_1{
+    width: 20%;
+    height: 46%;
+    padding: 15px 4px 12px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 12px;
+    border-bottom: 18px;
+
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.space_1_container{
+    width: 90%;
+    height: 100%;
+}
+
+.space_1_container_img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.space_1_text{
+    padding: 20px 0px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.space_1_text h3{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+
+    padding: 0 15px;
+    margin: 0;
+}
+
+
+.space_1_text p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+
+
+    padding: 10px 10px 2px 10px;
+    margin: 2px;
+}
+
+
+@media screen and (min-width:1000px) {
+    .space_1{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:999px) {
+    .space_1{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width:800px) {
+    .space_1{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 580px) {
+    .space_1{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width:479px) {
+    .space_1{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    .space_1{
+        width: 80%;
+    }
+}
